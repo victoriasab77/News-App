@@ -10,7 +10,35 @@ import React from 'react'
 
 const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
-const SingleNews = ({item, index}) => {
+const SingleNews = ({item, index, highlitedValue}) => {
+
+//     const highlight = ( string) =>
+//   string.replace(
+//       new RegExp( highlitedValue, 'gi'),
+//       (str) => {
+//         return (
+//             <Text style={{color: 'yellow'}}> {str} </Text>
+//         )
+//       }
+//   );
+
+//   const highlight = string =>
+//     string.split(' ').map((word, i) => (
+//       <Text key={i}>
+//         <Text style={{color: 'yellow'}}>{word} </Text>
+//       </Text>
+//     ));
+
+    // const  highlight = (word) => {
+    //     const match = _.words(word, RegExp(highlitedValue)); // "Aku"
+    //     const notMatch = _.replace(word, match, ""); // "rana"
+    //     return (
+    //       <View style={{ flexDirection: "row" }}>
+    //         <Text style={{ backgroundColor: "yellow" }}>{match}</Text>
+    //         <Text>{notMatch}</Text>
+    //       </View>
+    //     );
+    //   };
    
   return (
     <View

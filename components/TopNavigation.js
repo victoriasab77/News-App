@@ -28,11 +28,11 @@ const TopNavigation = ({ index, setIndex, category }) => {
           <Text
             style={{ ...styles.text, color: /*darkTheme ? */"lightgrey" /*: "black"*/ }}
           >
-            <MaterialCommunityIcons
+            {/* <MaterialCommunityIcons
               name="theme-light-dark"
               size={24}
               color="#007FFF"
-            />
+            /> */}
           </Text>
         </TouchableOpacity>
       ) : (
